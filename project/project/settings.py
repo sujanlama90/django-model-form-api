@@ -31,7 +31,8 @@ INSTALLED_APPS = [
 
 EXTERNAL_APPS =[
     'formApi',
-    'modelApi'
+    'modelApi',
+    'baseView'
 ]
 INSTALLED_APPS.extend(EXTERNAL_APPS)
 MIDDLEWARE = [
