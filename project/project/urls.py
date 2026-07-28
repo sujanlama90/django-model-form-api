@@ -7,5 +7,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('formApi.urls')),
     path('modelapi/',include('modelApi.urls')),
-    path('baseview/',include('baseView.urls'))
+    path('baseview/',include('baseView.urls')),
+    path('generic/',include('generic.urls'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
